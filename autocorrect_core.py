@@ -34,6 +34,9 @@ class AutoCorrectSystem:
     
     def __init__(self):
         """Initialize the AutoCorrect System"""
+        # Download required NLTK data first
+        self.download_nltk_data()
+        
         try:
             self.lemmatizer = WordNetLemmatizer()
             self.stop_words = set(stopwords.words('english'))
