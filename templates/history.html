@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}Neural Logs | Lipi AI Transaction History{% endblock %}
+
+{% block content %}
+<div class="container mb-5 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div data-aos="fade-down" class="mb-5 d-flex justify-content-between align-items-end">
+                <div>
+                    <h2 class="mb-2">Neural <span class="gradient-text">Logs</span></h2>
+                    <p class="text-white-50 mb-0">Local batch history for the current Lipi node.</p>
+                </div>
+                <button onclick="clearHistory()" class="btn-premium py-2 px-4 shadow-none small">Purge Logs</button>
+            </div>
+
+            <div class="bento-item p-0" data-aos="fade-up">
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover mb-0"
+                        style="--bs-table-bg: transparent; --bs-table-border-color: rgba(255,255,255,0.05);">
+                        <thead>
+                            <tr class="text-white-50 small text-uppercase">
+                                <th class="p-4 border-0">Timestamp</th>
+                                <th class="p-4 border-0">Input Token</th>
+                                <th class="p-4 border-0">Candidate Mapping</th>
+                                <th class="p-4 border-0">Local Protocol</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if history %}
+                            {% for item in history|reverse %}
+                            <tr class="border-top border-white border-opacity-5">
+                                <td class="p-4 small text-white-50">{{ item.timestamp }}</td>
+                                <td class="p-4 fw-bold">{{ item.word }}</td>
+                                <td class="p-4">
+                                    <div class="d-flex gap-2">
+                                        {% for suggestion in item.suggestions %}
+                                        <span
+                                            class="badge bg-white bg-opacity-5 border border-white border-opacity-10">{{
+                                            suggestion }}</span>
+                                        {% endfor %}
+                                    </div>
+                                </td>
+                                <td class="p-4 small"><span class="text-primary">{{ item.language }}</span></td>
+                            </tr>
+                            {% endfor %}
+                            {% else %}
+                            <tr>
+                                <td colspan="4" class="text-center py-5 text-white-50">
+                                    <i class="fas fa-database fa-3x mb-3 opacity-10"></i>
+                                    <p>No transactions identified in the local buffer.</p>
+                                </td>
+                            </tr>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    function clearHistory() {
+        if (confirm('Purge all transaction logs from local memory?')) {
+            fetch('/api/clear-history', { method: 'POST' })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.success) window.location.reload();
+                });
+        }
+    }
+</script>
+{% endblock %}

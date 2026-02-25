@@ -1,0 +1,52 @@
+[
+  {
+    "word": "apple",
+    "suggestions": [
+      "apple"
+    ],
+    "timestamp": "2026-02-25 21:15:49"
+  },
+  {
+    "word": "tomorrow",
+    "suggestions": [
+      "tomorrow"
+    ],
+    "timestamp": "2026-02-25 21:16:00"
+  },
+  {
+    "word": "wrod",
+    "suggestions": [
+      "word",
+      "wood",
+      "rod",
+      "trod",
+      "wod"
+    ],
+    "timestamp": "2026-02-25 21:25:38",
+    "language": "English"
+  },
+  {
+    "word": "sony",
+    "suggestions": [
+      "sonya",
+      "son",
+      "sons",
+      "song",
+      "bony"
+    ],
+    "timestamp": "2026-02-25 22:13:21",
+    "language": "English"
+  },
+  {
+    "word": "sony",
+    "suggestions": [
+      "sonya",
+      "son",
+      "sons",
+      "song",
+      "bony"
+    ],
+    "timestamp": "2026-02-25 22:15:01",
+    "language": "English"
+  }
+]

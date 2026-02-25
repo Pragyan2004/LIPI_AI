@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block title %}Lipi Engine | High-Precision Rectification{% endblock %}
+
+{% block content %}
+<div class="container mb-5">
+    <div class="row min-vh-75 align-items-center">
+        <!-- Control Panel -->
+        <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
+            <h2 class="mb-4">Engine <span class="gradient-text">Studio</span></h2>
+            <p class="text-white-50 mb-5">Input your script and let our neural nodes analyze the syntactic probability.
+                Optimized for low-latency batch processing.</p>
+
+            <form method="POST" action="{{ url_for('autocorrect_page') }}" class="d-flex flex-column gap-4">
+                <div class="position-relative">
+                    <label class="small text-white-50 mb-2 ms-2">INPUT EXPRESSION</label>
+                    <input type="text" class="form-input-modern" id="word" name="word" required
+                        placeholder="e.g., Namastey, Bharat, etc." value="{{ word if word else '' }}">
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <label class="small text-white-50 mb-2 ms-2">LAYER DEPTH</label>
+                        <select class="form-input-modern" name="max_suggestions">
+                            <option value="3" {{ 'selected' if max_suggestions==3 }}>Lite (3)</option>
+                            <option value="5" {{ 'selected' if not max_suggestions or max_suggestions==5 }}>Standard (5)
+                            </option>
+                            <option value="10" {{ 'selected' if max_suggestions==10 }}>Deep (10)</option>
+                        </select>
+                    </div>
+                    <div class="col-6 d-flex align-items-end">
+                        <button type="submit" class="btn-premium w-100 justify-content-center">Compute</button>
+                    </div>
+                </div>
+            </form>
+
+            <div class="mt-5 d-flex gap-4">
+                <div class="dash-card py-2 px-3 small border-opacity-10">
+                    <i class="fas fa-microchip me-2 text-primary"></i> Neural Base: v2.0
+                </div>
+                <div class="dash-card py-2 px-3 small border-opacity-10">
+                    <i class="fas fa-bolt me-2 text-success"></i> Latency: 1.2ms
+                </div>
+            </div>
+        </div>
+
+        <!-- Result Matrix -->
+        <div class="col-lg-7" data-aos="fade-left">
+            <div class="bento-item h-100 p-4">
+                <div
+                    class="d-flex justify-content-between align-items-center mb-4 border-bottom border-white border-opacity-10 pb-3">
+                    <h5 class="mb-0">Neural Rectification Matrix</h5>
+                    <span
+                        class="badge bg-primary bg-opacity-10 text-primary border border-primary border-opacity-20 px-3 py-2 rounded-pill">
+                        {% if suggestions %}
+                        {{ suggestions|length }} Output Nodes
+                        {% else %}
+                        Awaiting Input
+                        {% endif %}
+                    </span>
+                </div>
+
+                {% if suggestions %}
+                <div class="d-flex flex-column gap-3">
+                    {% for suggestion, prob in suggestions %}
+                    <div class="dash-card d-flex justify-content-between align-items-center hover-glow"
+                        style="cursor: pointer;">
+                        <div>
+                            <span class="fs-4 fw-bold">{{ suggestion }}</span>
+                            <div class="small text-white-50">Match Confidence</div>
+                        </div>
+                        <div class="text-end">
+                            <span class="gradient-text fw-bold fs-5">{{ (prob * 100)|round(2) }}%</span>
+                            <div class="progress mt-2"
+                                style="height: 4px; width: 80px; background: rgba(255,255,255,0.05);">
+                                <div class="progress-bar bg-primary" style="width: {{ prob * 100 }}%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="text-center py-5 opacity-20">
+                    <i class="fas fa-dna fa-5x mb-4"></i>
+                    <p>Enter data to initialize neural mapping.</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/autocorrect.js') }}"></script>
+{% endblock %}

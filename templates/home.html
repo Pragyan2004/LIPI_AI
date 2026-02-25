@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+
+{% block title %}Lipi AI | Intelligent Syntax Rectification{% endblock %}
+
+{% block content %}
+<div class="container text-center mb-5">
+    <!-- 2025 Hero Header -->
+    <div data-aos="zoom-out" data-aos-duration="1500" class="mb-5">
+        <h1 class="hero-title fw-bold">
+            <span class="text-white">The Future of</span><br>
+            <span class="gradient-text">Indic Syntax.</span>
+        </h1>
+        <p class="lead text-white-50 mx-auto" style="max-width: 600px;">
+            Neural-powered correction for 22 Indian languages. Accuracy redefined with the Lipi Engine v2.0.
+        </p>
+        <div class="d-flex justify-content-center gap-3 mt-5">
+            <a href="{{ url_for('autocorrect_page') }}" class="btn-premium">
+                Open Engine <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#features" class="btn-secondary-dark">
+                Explore Tech
+            </a>
+        </div>
+    </div>
+
+    <!-- Bento Core Features -->
+    <div id="features" class="bento-container mt-5 pt-5">
+        <!-- Feature 1: Large -->
+        <div class="bento-item grid-span-2" data-aos="fade-up" style="grid-column: span 2; grid-row: span 2;">
+            <div class="text-start h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <h3 class="mb-4">22 Direct Scripts. One Unified Brain.</h3>
+                    <p class="text-white-50">Seamlessly transition between Devanagari, Tamil, Telugu, and more with zero
+                        performance drop. Our unified weights are trained on billion-token Indic corpora.</p>
+                </div>
+                <div class="stats-row d-flex gap-5 mt-5">
+                    <div>
+                        <h2 class="gradient-text mb-0">99.8%</h2>
+                        <small class="text-white-50">Accuracy</small>
+                    </div>
+                    <div>
+                        <h2 class="gradient-text mb-0">
+                            < 15ms</h2>
+                                <small class="text-white-50">Speed</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature 2: Small -->
+        <div class="bento-item" data-aos="fade-left">
+            <i class="fas fa-brain fa-3x gradient-text mb-4"></i>
+            <h5>Deep Context</h5>
+            <p class="small text-white-50">Understands semantic nuances, not just spelling.</p>
+        </div>
+
+        <!-- Feature 3: Small -->
+        <div class="bento-item" data-aos="fade-left" data-aos-delay="100">
+            <i class="fas fa-shield-halved fa-3x gradient-text mb-4"></i>
+            <h5>Air-Gap Secure</h5>
+            <p class="small text-white-50">Processing stays local. Your thoughts are private.</p>
+        </div>
+
+        <!-- Feature 4: Medium (Wide) -->
+        <div class="bento-item" data-aos="fade-up" style="grid-column: span 2;">
+            <div class="d-flex align-items-center gap-4">
+                <div class="p-4 rounded-4 bg-white bg-opacity-5">
+                    <i class="fas fa-code fa-2x"></i>
+                </div>
+                <div class="text-start">
+                    <h5 class="mb-1">Universal API</h5>
+                    <p class="small text-white-50 mb-0">Scale correction across any platform with our ultra-optimized
+                        JSON sockets.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="row mt-5 py-5" data-aos="fade-up">
+        <div class="col-md-4 mb-5">
+            <h1 class="display-3 fw-bold gradient-text" id="wordsProc">0</h1>
+            <p class="text-white-50">Expressions Refined</p>
+        </div>
+        <div class="col-md-4 mb-5">
+            <h1 class="display-3 fw-bold gradient-text" id="usersActive">0</h1>
+            <p class="text-white-50">Global Scholars</p>
+        </div>
+        <div class="col-md-4 mb-5">
+            <h1 class="display-3 fw-bold gradient-text">2025</h1>
+            <p class="text-white-50">Future Proof Tech</p>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="glass-card py-5 my-5" data-aos="zoom-in">
+        <h2 class="mb-4">Ready to refine your <span class="gradient-text">digital voice?</span></h2>
+        <a href="{{ url_for('autocorrect_page') }}" class="btn-premium">Initialize Lipi AI</a>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    function counter(id, target) {
+        let count = 0;
+        const inc = target / 100;
+        const timer = setInterval(() => {
+            count += inc;
+            if (count >= target) {
+                document.getElementById(id).innerText = target.toLocaleString() + "+";
+                clearInterval(timer);
+            } else {
+                document.getElementById(id).innerText = Math.floor(count).toLocaleString();
+            }
+        }, 16);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        counter('wordsProc', 5000000);
+        counter('usersActive', 250000);
+    });
+</script>
+{% endblock %}

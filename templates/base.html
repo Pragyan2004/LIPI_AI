@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Lipi AI - The world's most advanced neural syntax corrector for Indian languages. Redefining digital communication.">
+    <title>{% block title %}Lipi AI | Neural Syntax Engine{% endblock %}</title>
+
+    <!-- Design Resources -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Satoshi:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Neo-Modern CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    {% block extra_css %}{% endblock %}
+</head>
+
+<body>
+    <!-- 2025 Mesh Layer -->
+    <div class="mesh-bg"></div>
+
+    <!-- Interactive Cursor -->
+    <div class="cursor-2025" id="cursor"></div>
+
+    <!-- Dynamic Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container-fluid d-flex justify-content-between">
+            <a class="navbar-brand d-flex align-items-center" href="{{ url_for('home') }}">
+                <span class="gradient-text fw-bold fs-3">LIPI AI</span>
+            </a>
+
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <i class="fas fa-bars-staggered text-white"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('home') }}">Workspace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('autocorrect_page') }}">Engine</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('dashboard') }}">Analytics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('documentation') }}">Architecture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('benchmarks') }}">Benchmarks</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <div class="social-links-grid me-3">
+                        <a href="https://github.com/Pragyan2004" class="social-link-item" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/pragyan-kumar-a95a6722b/?skipRedirect=true"
+                            class="social-link-item" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/lipi_ai" class="social-link-item" target="_blank"><i
+                                class="fab fa-x-twitter"></i></a>
+                        <a href="https://instagram.com/lipi_ai" class="social-link-item" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="{{ url_for('contact') }}" class="btn-premium py-2 px-4 fs-6">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Stream -->
+    <main style="padding-top: 15vh;">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- 2025 Minimal Footer -->
+    <footer class="py-5 mt-5">
+        <div class="container border-top border-white border-opacity-10 pt-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h4 class="gradient-text mb-3">LIPI AI</h4>
+                    <p class="text-white-50 small">Bridging human thought & machine text with neural precision.
+                        Optimized for 22 Indic scripts.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="{{ url_for('documentation') }}"
+                                        class="text-white-50 text-decoration-none">Docs</a></li>
+                                <li class="mb-2"><a href="{{ url_for('benchmarks') }}"
+                                        class="text-white-50 text-decoration-none">Specs</a></li>
+                                <li class="mb-2"><a href="{{ url_for('privacy') }}"
+                                        class="text-white-50 text-decoration-none">Ethics</a></li>
+                                <li class="mb-2"><a href="{{ url_for('terms') }}"
+                                        class="text-white-50 text-decoration-none">Agreement</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="https://github.com/Pragyan2004"
+                                        class="text-white-50 text-decoration-none" target="_blank">GitHub</a></li>
+                                <li class="mb-2"><a
+                                        href="https://www.linkedin.com/in/pragyan-kumar-a95a6722b/?skipRedirect=true"
+                                        class="text-white-50 text-decoration-none" target="_blank">LinkedIn</a></li>
+                                <li class="mb-2"><a href="https://twitter.com/lipi_ai"
+                                        class="text-white-50 text-decoration-none" target="_blank">Twitter</a></li>
+                                <li class="mb-2"><a href="https://instagram.com/lipi_ai"
+                                        class="text-white-50 text-decoration-none" target="_blank">Instagram</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center text-white-50 x-small">
+                    &copy; 2025 Lipi Research Systems. Built for the era of intelligence.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Execution Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script>
+        AOS.init({ duration: 1200, once: true });
+
+        // Floating Nav Logic
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 20) nav.classList.add('scrolled');
+            else nav.classList.remove('scrolled');
+        });
+
+        // Interactive Cursor
+        const cursor = document.getElementById('cursor');
+        document.addEventListener('mousemove', (e) => {
+            gsap.to(cursor, {
+                x: e.clientX - 5,
+                y: e.clientY - 5,
+                duration: 0.2,
+                ease: "power2.out"
+            });
+        });
+
+        // Global links highlight
+        document.querySelectorAll('.nav-link').forEach(link => {
+            if (window.location.pathname === link.getAttribute('href')) {
+                link.classList.add('active');
+            }
+        });
+    </script>
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>

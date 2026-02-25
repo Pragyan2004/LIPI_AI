@@ -1,0 +1,298 @@
+2026-02-25 21:14:57,036 - INFO - AutoCorrect System initialized successfully
+2026-02-25 21:14:57,085 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 21:14:57,206 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-25 21:14:57,206 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-25 21:14:57,229 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-25 21:15:00,888 - INFO - AutoCorrect System initialized successfully
+2026-02-25 21:15:00,932 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 21:15:00,973 - WARNING -  * Debugger is active!
+2026-02-25 21:15:00,980 - INFO -  * Debugger PIN: 945-111-286
+2026-02-25 21:15:19,748 - INFO - 127.0.0.1 - - [25/Feb/2026 21:15:19] "GET / HTTP/1.1" 200 -
+2026-02-25 21:15:19,992 - INFO - 127.0.0.1 - - [25/Feb/2026 21:15:19] "GET / HTTP/1.1" 200 -
+2026-02-25 21:15:20,239 - INFO - 127.0.0.1 - - [25/Feb/2026 21:15:20] "GET /api/model-info HTTP/1.1" 200 -
+2026-02-25 21:15:24,297 - INFO - 127.0.0.1 - - [25/Feb/2026 21:15:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 21:15:31,464 - INFO - 127.0.0.1 - - [25/Feb/2026 21:15:31] "GET / HTTP/1.1" 200 -
+2026-02-25 21:15:31,534 - INFO - 127.0.0.1 - - [25/Feb/2026 21:15:31] "GET /api/model-info HTTP/1.1" 200 -
+2026-02-25 21:15:32,882 - INFO - 127.0.0.1 - - [25/Feb/2026 21:15:32] "GET /about HTTP/1.1" 200 -
+2026-02-25 21:15:38,067 - INFO - 127.0.0.1 - - [25/Feb/2026 21:15:38] "GET /autocorrect HTTP/1.1" 200 -
+2026-02-25 21:15:49,428 - INFO - 127.0.0.1 - - [25/Feb/2026 21:15:49] "POST /autocorrect HTTP/1.1" 200 -
+2026-02-25 21:16:00,310 - INFO - 127.0.0.1 - - [25/Feb/2026 21:16:00] "POST /autocorrect HTTP/1.1" 200 -
+2026-02-25 21:16:08,286 - INFO - 127.0.0.1 - - [25/Feb/2026 21:16:08] "GET /about HTTP/1.1" 200 -
+2026-02-25 21:16:11,790 - INFO - 127.0.0.1 - - [25/Feb/2026 21:16:11] "GET /history HTTP/1.1" 200 -
+2026-02-25 21:16:17,154 - INFO - 127.0.0.1 - - [25/Feb/2026 21:16:17] "GET /contact HTTP/1.1" 200 -
+2026-02-25 21:18:41,858 - INFO -  * Detected change in 'C:\\Users\\Pragyan Kumar\\AppData\\Roaming\\Python\\Python314\\site-packages\\werkzeug\\routing\\map.py', reloading
+2026-02-25 21:18:42,939 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-25 21:18:47,370 - INFO - AutoCorrect System initialized successfully
+2026-02-25 21:18:47,417 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 21:18:47,464 - WARNING -  * Debugger is active!
+2026-02-25 21:18:47,472 - INFO -  * Debugger PIN: 945-111-286
+2026-02-25 21:18:47,664 - INFO - 127.0.0.1 - - [25/Feb/2026 21:18:47] "[35m[1mGET /contact HTTP/1.1[0m" 500 -
+2026-02-25 21:18:47,890 - INFO - 127.0.0.1 - - [25/Feb/2026 21:18:47] "GET /contact?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-25 21:18:47,933 - INFO - 127.0.0.1 - - [25/Feb/2026 21:18:47] "GET /contact?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-25 21:18:47,962 - INFO - 127.0.0.1 - - [25/Feb/2026 21:18:47] "GET /contact?__debugger__=yes&cmd=resource&f=console.png&s=LFSZcc10SkQYR9VpgjzY HTTP/1.1" 200 -
+2026-02-25 21:18:52,285 - INFO - 127.0.0.1 - - [25/Feb/2026 21:18:52] "GET /contact?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-25 21:18:55,251 - INFO - 127.0.0.1 - - [25/Feb/2026 21:18:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-25 21:18:55,720 - INFO - 127.0.0.1 - - [25/Feb/2026 21:18:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-25 21:18:55,756 - INFO - 127.0.0.1 - - [25/Feb/2026 21:18:55] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-25 21:18:55,760 - INFO - 127.0.0.1 - - [25/Feb/2026 21:18:55] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-25 21:18:55,805 - INFO - 127.0.0.1 - - [25/Feb/2026 21:18:55] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=LFSZcc10SkQYR9VpgjzY HTTP/1.1" 200 -
+2026-02-25 21:18:56,587 - INFO - 127.0.0.1 - - [25/Feb/2026 21:18:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-25 21:18:59,592 - INFO - 127.0.0.1 - - [25/Feb/2026 21:18:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-25 21:18:59,629 - INFO - 127.0.0.1 - - [25/Feb/2026 21:18:59] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:18:59,635 - INFO - 127.0.0.1 - - [25/Feb/2026 21:18:59] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-25 21:18:59,678 - INFO - 127.0.0.1 - - [25/Feb/2026 21:18:59] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=LFSZcc10SkQYR9VpgjzY HTTP/1.1[0m" 304 -
+2026-02-25 21:22:37,876 - INFO -  * Detected change in 'D:\\code\\Python\\project\\autocorrect_system\\app.py', reloading
+2026-02-25 21:22:38,515 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-25 21:22:42,688 - INFO - AutoCorrect System initialized successfully
+2026-02-25 21:22:42,738 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 21:22:42,803 - WARNING -  * Debugger is active!
+2026-02-25 21:22:42,815 - INFO -  * Debugger PIN: 945-111-286
+2026-02-25 21:23:57,120 - INFO - 127.0.0.1 - - [25/Feb/2026 21:23:57] "GET / HTTP/1.1" 200 -
+2026-02-25 21:25:09,885 - INFO - 127.0.0.1 - - [25/Feb/2026 21:25:09] "GET /autocorrect HTTP/1.1" 200 -
+2026-02-25 21:25:38,162 - INFO - 127.0.0.1 - - [25/Feb/2026 21:25:38] "POST /autocorrect HTTP/1.1" 200 -
+2026-02-25 21:25:46,345 - INFO - 127.0.0.1 - - [25/Feb/2026 21:25:46] "GET /about HTTP/1.1" 200 -
+2026-02-25 21:25:53,724 - INFO - 127.0.0.1 - - [25/Feb/2026 21:25:53] "GET /history HTTP/1.1" 200 -
+2026-02-25 21:26:00,237 - INFO - 127.0.0.1 - - [25/Feb/2026 21:26:00] "GET /contact HTTP/1.1" 200 -
+2026-02-25 21:26:06,420 - INFO - 127.0.0.1 - - [25/Feb/2026 21:26:06] "GET /dashboard HTTP/1.1" 200 -
+2026-02-25 21:26:15,678 - INFO - 127.0.0.1 - - [25/Feb/2026 21:26:15] "GET /gamification HTTP/1.1" 200 -
+2026-02-25 21:32:07,519 - INFO -  * Detected change in 'C:\\Python314\\Lib\\pydoc_data\\topics.py', reloading
+2026-02-25 21:32:08,914 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-25 21:32:15,495 - INFO - AutoCorrect System initialized successfully
+2026-02-25 21:32:15,562 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 21:32:15,631 - WARNING -  * Debugger is active!
+2026-02-25 21:32:15,641 - INFO -  * Debugger PIN: 945-111-286
+2026-02-25 21:45:45,638 - INFO - AutoCorrect System initialized successfully
+2026-02-25 21:45:45,687 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 21:45:45,776 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.92.80.227:5000
+2026-02-25 21:45:45,777 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-25 21:45:45,805 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-25 21:45:51,212 - INFO - AutoCorrect System initialized successfully
+2026-02-25 21:45:51,279 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 21:45:51,346 - WARNING -  * Debugger is active!
+2026-02-25 21:45:51,360 - INFO -  * Debugger PIN: 945-111-286
+2026-02-25 21:45:51,584 - INFO - 127.0.0.1 - - [25/Feb/2026 21:45:51] "GET / HTTP/1.1" 200 -
+2026-02-25 21:45:51,884 - INFO - 127.0.0.1 - - [25/Feb/2026 21:45:51] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-25 21:45:51,887 - INFO - 127.0.0.1 - - [25/Feb/2026 21:45:51] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-02-25 21:45:53,860 - INFO - 127.0.0.1 - - [25/Feb/2026 21:45:53] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 21:45:53,950 - INFO - 127.0.0.1 - - [25/Feb/2026 21:45:53] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 21:46:07,310 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:07] "GET / HTTP/1.1" 200 -
+2026-02-25 21:46:07,387 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:46:07,415 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-25 21:46:07,566 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:07] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 21:46:16,538 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:16] "GET / HTTP/1.1" 200 -
+2026-02-25 21:46:16,610 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:46:16,614 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-25 21:46:16,762 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:16] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 21:46:21,862 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:21] "GET /autocorrect HTTP/1.1" 200 -
+2026-02-25 21:46:21,943 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:46:21,949 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:21] "GET /static/js/autocorrect.js HTTP/1.1" 200 -
+2026-02-25 21:46:21,954 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-25 21:46:22,127 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:22] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 21:46:22,242 - INFO -  * Detected change in 'D:\\code\\Python\\project\\autocorrect_system\\app.py', reloading
+2026-02-25 21:46:22,920 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-25 21:46:28,621 - INFO - AutoCorrect System initialized successfully
+2026-02-25 21:46:28,688 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 21:46:28,759 - WARNING -  * Debugger is active!
+2026-02-25 21:46:28,770 - INFO -  * Debugger PIN: 945-111-286
+2026-02-25 21:46:36,503 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:36] "GET / HTTP/1.1" 200 -
+2026-02-25 21:46:36,807 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-25 21:46:36,809 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-25 21:46:36,874 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:36] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 21:46:49,023 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:49] "GET /autocorrect HTTP/1.1" 200 -
+2026-02-25 21:46:49,102 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:46:49,105 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-25 21:46:49,107 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:49] "[36mGET /static/js/autocorrect.js HTTP/1.1[0m" 304 -
+2026-02-25 21:46:49,264 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:49] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 21:46:56,057 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:56] "GET /history HTTP/1.1" 200 -
+2026-02-25 21:46:56,147 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:46:56,150 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-25 21:46:56,344 - INFO - 127.0.0.1 - - [25/Feb/2026 21:46:56] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 21:47:20,946 - INFO - 127.0.0.1 - - [25/Feb/2026 21:47:20] "GET /privacy HTTP/1.1" 200 -
+2026-02-25 21:47:21,025 - INFO - 127.0.0.1 - - [25/Feb/2026 21:47:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:47:21,030 - INFO - 127.0.0.1 - - [25/Feb/2026 21:47:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-25 21:47:21,695 - INFO - 127.0.0.1 - - [25/Feb/2026 21:47:21] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 21:47:27,523 - INFO - 127.0.0.1 - - [25/Feb/2026 21:47:27] "GET /terms HTTP/1.1" 200 -
+2026-02-25 21:47:27,601 - INFO - 127.0.0.1 - - [25/Feb/2026 21:47:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:47:27,605 - INFO - 127.0.0.1 - - [25/Feb/2026 21:47:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-25 21:47:27,771 - INFO - 127.0.0.1 - - [25/Feb/2026 21:47:27] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 21:47:31,098 - INFO - 127.0.0.1 - - [25/Feb/2026 21:47:31] "GET /contact HTTP/1.1" 200 -
+2026-02-25 21:47:31,181 - INFO - 127.0.0.1 - - [25/Feb/2026 21:47:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:47:31,185 - INFO - 127.0.0.1 - - [25/Feb/2026 21:47:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-25 21:47:31,354 - INFO - 127.0.0.1 - - [25/Feb/2026 21:47:31] "[33mGET /static/img/favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 21:50:29,701 - INFO - 127.0.0.1 - - [25/Feb/2026 21:50:29] "GET /contact HTTP/1.1" 200 -
+2026-02-25 21:50:29,757 - INFO - 127.0.0.1 - - [25/Feb/2026 21:50:29] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-25 21:50:30,723 - INFO - 127.0.0.1 - - [25/Feb/2026 21:50:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 21:50:31,543 - INFO - 127.0.0.1 - - [25/Feb/2026 21:50:31] "GET / HTTP/1.1" 200 -
+2026-02-25 21:50:31,620 - INFO - 127.0.0.1 - - [25/Feb/2026 21:50:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:50:39,034 - INFO - 127.0.0.1 - - [25/Feb/2026 21:50:39] "GET /autocorrect HTTP/1.1" 200 -
+2026-02-25 21:50:39,106 - INFO - 127.0.0.1 - - [25/Feb/2026 21:50:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:50:39,108 - INFO - 127.0.0.1 - - [25/Feb/2026 21:50:39] "[36mGET /static/js/autocorrect.js HTTP/1.1[0m" 304 -
+2026-02-25 21:50:53,485 - INFO - 127.0.0.1 - - [25/Feb/2026 21:50:53] "GET /gamification HTTP/1.1" 200 -
+2026-02-25 21:50:53,553 - INFO - 127.0.0.1 - - [25/Feb/2026 21:50:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:50:53,553 - INFO - 127.0.0.1 - - [25/Feb/2026 21:50:53] "GET /static/js/games.js HTTP/1.1" 200 -
+2026-02-25 21:51:20,638 - INFO - 127.0.0.1 - - [25/Feb/2026 21:51:20] "GET /history HTTP/1.1" 200 -
+2026-02-25 21:51:20,716 - INFO - 127.0.0.1 - - [25/Feb/2026 21:51:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:52:34,185 - INFO -  * Detected change in 'D:\\code\\Python\\project\\autocorrect_system\\app.py', reloading
+2026-02-25 21:52:34,799 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-25 21:52:41,431 - INFO - AutoCorrect System initialized successfully
+2026-02-25 21:52:41,493 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 21:52:41,562 - WARNING -  * Debugger is active!
+2026-02-25 21:52:41,574 - INFO -  * Debugger PIN: 945-111-286
+2026-02-25 21:53:04,640 - INFO - 127.0.0.1 - - [25/Feb/2026 21:53:04] "GET /history HTTP/1.1" 200 -
+2026-02-25 21:53:04,859 - INFO - 127.0.0.1 - - [25/Feb/2026 21:53:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:53:05,844 - INFO - 127.0.0.1 - - [25/Feb/2026 21:53:05] "GET / HTTP/1.1" 200 -
+2026-02-25 21:53:05,921 - INFO - 127.0.0.1 - - [25/Feb/2026 21:53:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:53:16,890 - INFO - 127.0.0.1 - - [25/Feb/2026 21:53:16] "GET /gamification HTTP/1.1" 200 -
+2026-02-25 21:53:16,965 - INFO - 127.0.0.1 - - [25/Feb/2026 21:53:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:53:16,968 - INFO - 127.0.0.1 - - [25/Feb/2026 21:53:16] "[36mGET /static/js/games.js HTTP/1.1[0m" 304 -
+2026-02-25 21:53:20,334 - INFO - 127.0.0.1 - - [25/Feb/2026 21:53:20] "GET /contact HTTP/1.1" 200 -
+2026-02-25 21:53:20,398 - INFO - 127.0.0.1 - - [25/Feb/2026 21:53:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:53:35,218 - INFO - 127.0.0.1 - - [25/Feb/2026 21:53:35] "GET / HTTP/1.1" 200 -
+2026-02-25 21:53:35,299 - INFO - 127.0.0.1 - - [25/Feb/2026 21:53:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:54:03,294 - INFO -  * Detected change in 'D:\\code\\Python\\project\\autocorrect_system\\app.py', reloading
+2026-02-25 21:54:03,815 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-25 21:54:09,296 - INFO - AutoCorrect System initialized successfully
+2026-02-25 21:54:09,359 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 21:54:09,417 - WARNING -  * Debugger is active!
+2026-02-25 21:54:09,426 - INFO -  * Debugger PIN: 945-111-286
+2026-02-25 21:54:10,130 - INFO -  * Detected change in 'C:\\Users\\Pragyan Kumar\\AppData\\Roaming\\Python\\Python314\\site-packages\\flask\\app.py', reloading
+2026-02-25 21:54:10,711 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-25 21:54:15,894 - INFO - AutoCorrect System initialized successfully
+2026-02-25 21:54:15,952 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 21:54:16,016 - WARNING -  * Debugger is active!
+2026-02-25 21:54:16,028 - INFO -  * Debugger PIN: 945-111-286
+2026-02-25 21:54:16,245 - INFO -  * Detected change in 'C:\\Users\\Pragyan Kumar\\AppData\\Roaming\\Python\\Python314\\site-packages\\jinja2\\environment.py', reloading
+2026-02-25 21:54:16,830 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-25 21:54:21,811 - INFO - AutoCorrect System initialized successfully
+2026-02-25 21:54:21,859 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 21:54:21,910 - WARNING -  * Debugger is active!
+2026-02-25 21:54:21,919 - INFO -  * Debugger PIN: 945-111-286
+2026-02-25 21:54:22,118 - INFO - 127.0.0.1 - - [25/Feb/2026 21:54:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-25 21:54:22,361 - INFO - 127.0.0.1 - - [25/Feb/2026 21:54:22] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-25 21:54:22,373 - INFO - 127.0.0.1 - - [25/Feb/2026 21:54:22] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-25 21:54:22,528 - INFO - 127.0.0.1 - - [25/Feb/2026 21:54:22] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=w0fyABgVLHmzo6nFZRQD HTTP/1.1" 200 -
+2026-02-25 21:54:22,533 - INFO - 127.0.0.1 - - [25/Feb/2026 21:54:22] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-25 21:54:22,577 - INFO - 127.0.0.1 - - [25/Feb/2026 21:54:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-25 21:56:26,329 - INFO - 127.0.0.1 - - [25/Feb/2026 21:56:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-25 21:56:26,392 - INFO - 127.0.0.1 - - [25/Feb/2026 21:56:26] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:56:26,396 - INFO - 127.0.0.1 - - [25/Feb/2026 21:56:26] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-25 21:56:26,468 - INFO - 127.0.0.1 - - [25/Feb/2026 21:56:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=w0fyABgVLHmzo6nFZRQD HTTP/1.1[0m" 304 -
+2026-02-25 21:56:26,479 - INFO - 127.0.0.1 - - [25/Feb/2026 21:56:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-25 21:56:26,514 - INFO - 127.0.0.1 - - [25/Feb/2026 21:56:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-25 21:56:28,497 - INFO - 127.0.0.1 - - [25/Feb/2026 21:56:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-25 21:56:28,546 - INFO - 127.0.0.1 - - [25/Feb/2026 21:56:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-25 21:56:28,549 - INFO - 127.0.0.1 - - [25/Feb/2026 21:56:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-25 21:56:28,628 - INFO - 127.0.0.1 - - [25/Feb/2026 21:56:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=w0fyABgVLHmzo6nFZRQD HTTP/1.1[0m" 304 -
+2026-02-25 21:56:28,631 - INFO - 127.0.0.1 - - [25/Feb/2026 21:56:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-25 21:56:28,662 - INFO - 127.0.0.1 - - [25/Feb/2026 21:56:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-25 22:01:05,693 - INFO -  * Detected change in 'D:\\code\\Python\\project\\autocorrect_system\\app.py', reloading
+2026-02-25 22:01:05,699 - INFO -  * Detected change in 'D:\\code\\Python\\project\\autocorrect_system\\app.py', reloading
+2026-02-25 22:01:06,285 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-25 22:01:10,473 - INFO - AutoCorrect System initialized successfully
+2026-02-25 22:01:10,513 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 22:01:10,559 - WARNING -  * Debugger is active!
+2026-02-25 22:01:10,567 - INFO -  * Debugger PIN: 945-111-286
+2026-02-25 22:02:27,753 - INFO -  * Detected change in 'D:\\code\\Python\\project\\autocorrect_system\\app.py', reloading
+2026-02-25 22:02:28,190 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-25 22:02:32,160 - INFO - AutoCorrect System initialized successfully
+2026-02-25 22:02:32,201 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 22:02:32,249 - WARNING -  * Debugger is active!
+2026-02-25 22:02:32,256 - INFO -  * Debugger PIN: 945-111-286
+2026-02-25 22:04:31,493 - INFO - 127.0.0.1 - - [25/Feb/2026 22:04:31] "GET / HTTP/1.1" 200 -
+2026-02-25 22:04:31,708 - INFO - 127.0.0.1 - - [25/Feb/2026 22:04:31] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-25 22:05:27,897 - INFO - 127.0.0.1 - - [25/Feb/2026 22:05:27] "GET / HTTP/1.1" 200 -
+2026-02-25 22:05:28,161 - INFO - 127.0.0.1 - - [25/Feb/2026 22:05:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-25 22:05:33,352 - INFO - 127.0.0.1 - - [25/Feb/2026 22:05:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-25 22:06:44,491 - INFO - 127.0.0.1 - - [25/Feb/2026 22:06:44] "GET / HTTP/1.1" 200 -
+2026-02-25 22:06:44,589 - INFO - 127.0.0.1 - - [25/Feb/2026 22:06:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:07:29,693 - INFO - 127.0.0.1 - - [25/Feb/2026 22:07:29] "GET /documentation HTTP/1.1" 200 -
+2026-02-25 22:07:30,001 - INFO - 127.0.0.1 - - [25/Feb/2026 22:07:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:07:39,272 - INFO - 127.0.0.1 - - [25/Feb/2026 22:07:39] "GET /benchmarks HTTP/1.1" 200 -
+2026-02-25 22:07:39,435 - INFO - 127.0.0.1 - - [25/Feb/2026 22:07:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:07:47,063 - INFO - 127.0.0.1 - - [25/Feb/2026 22:07:47] "GET /privacy HTTP/1.1" 200 -
+2026-02-25 22:07:47,376 - INFO - 127.0.0.1 - - [25/Feb/2026 22:07:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:07:50,791 - INFO - 127.0.0.1 - - [25/Feb/2026 22:07:50] "GET /terms HTTP/1.1" 200 -
+2026-02-25 22:07:50,893 - INFO - 127.0.0.1 - - [25/Feb/2026 22:07:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:08:30,423 - INFO - 127.0.0.1 - - [25/Feb/2026 22:08:30] "GET / HTTP/1.1" 200 -
+2026-02-25 22:08:30,760 - INFO - 127.0.0.1 - - [25/Feb/2026 22:08:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:08:33,948 - INFO - 127.0.0.1 - - [25/Feb/2026 22:08:33] "GET /autocorrect HTTP/1.1" 200 -
+2026-02-25 22:08:33,998 - INFO - 127.0.0.1 - - [25/Feb/2026 22:08:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:08:34,307 - INFO - 127.0.0.1 - - [25/Feb/2026 22:08:34] "GET /static/js/autocorrect.js HTTP/1.1" 200 -
+2026-02-25 22:10:31,865 - INFO - 127.0.0.1 - - [25/Feb/2026 22:10:31] "GET /documentation HTTP/1.1" 200 -
+2026-02-25 22:10:32,217 - INFO - 127.0.0.1 - - [25/Feb/2026 22:10:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:10:45,337 - INFO - 127.0.0.1 - - [25/Feb/2026 22:10:45] "GET /benchmarks HTTP/1.1" 200 -
+2026-02-25 22:10:45,654 - INFO - 127.0.0.1 - - [25/Feb/2026 22:10:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:11:08,127 - INFO - 127.0.0.1 - - [25/Feb/2026 22:11:08] "GET /contact HTTP/1.1" 200 -
+2026-02-25 22:11:08,219 - INFO - 127.0.0.1 - - [25/Feb/2026 22:11:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:11:14,236 - INFO - 127.0.0.1 - - [25/Feb/2026 22:11:14] "GET / HTTP/1.1" 200 -
+2026-02-25 22:11:14,541 - INFO - 127.0.0.1 - - [25/Feb/2026 22:11:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:11:27,238 - INFO - 127.0.0.1 - - [25/Feb/2026 22:11:27] "GET /dashboard HTTP/1.1" 200 -
+2026-02-25 22:11:27,356 - INFO - 127.0.0.1 - - [25/Feb/2026 22:11:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:11:27,487 - INFO - 127.0.0.1 - - [25/Feb/2026 22:11:27] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2026-02-25 22:11:30,522 - INFO - 127.0.0.1 - - [25/Feb/2026 22:11:30] "GET /documentation HTTP/1.1" 200 -
+2026-02-25 22:11:30,832 - INFO - 127.0.0.1 - - [25/Feb/2026 22:11:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:11:44,343 - INFO - 127.0.0.1 - - [25/Feb/2026 22:11:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:11:44,388 - INFO - 127.0.0.1 - - [25/Feb/2026 22:11:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-02-25 22:12:55,230 - INFO - 127.0.0.1 - - [25/Feb/2026 22:12:55] "GET / HTTP/1.1" 200 -
+2026-02-25 22:12:55,350 - INFO - 127.0.0.1 - - [25/Feb/2026 22:12:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:13:05,755 - INFO - 127.0.0.1 - - [25/Feb/2026 22:13:05] "GET /autocorrect HTTP/1.1" 200 -
+2026-02-25 22:13:06,045 - INFO - 127.0.0.1 - - [25/Feb/2026 22:13:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:13:06,124 - INFO - 127.0.0.1 - - [25/Feb/2026 22:13:06] "[36mGET /static/js/autocorrect.js HTTP/1.1[0m" 304 -
+2026-02-25 22:13:21,925 - INFO - 127.0.0.1 - - [25/Feb/2026 22:13:21] "POST /autocorrect HTTP/1.1" 200 -
+2026-02-25 22:13:21,968 - INFO - 127.0.0.1 - - [25/Feb/2026 22:13:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-25 22:13:21,968 - INFO - 127.0.0.1 - - [25/Feb/2026 22:13:21] "[36mGET /static/js/autocorrect.js HTTP/1.1[0m" 304 -
+2026-02-25 22:15:02,274 - INFO - 127.0.0.1 - - [25/Feb/2026 22:15:02] "POST /autocorrect HTTP/1.1" 200 -
+2026-02-25 22:15:03,203 - INFO - 127.0.0.1 - - [25/Feb/2026 22:15:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-25 22:15:03,223 - INFO - 127.0.0.1 - - [25/Feb/2026 22:15:03] "[36mGET /static/js/autocorrect.js HTTP/1.1[0m" 304 -
+2026-02-25 22:16:05,790 - INFO - 127.0.0.1 - - [25/Feb/2026 22:16:05] "GET /dashboard HTTP/1.1" 200 -
+2026-02-25 22:16:06,301 - INFO - 127.0.0.1 - - [25/Feb/2026 22:16:06] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-25 22:16:06,303 - INFO - 127.0.0.1 - - [25/Feb/2026 22:16:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:17:47,130 - INFO - 127.0.0.1 - - [25/Feb/2026 22:17:47] "GET /documentation HTTP/1.1" 200 -
+2026-02-25 22:17:47,671 - INFO - 127.0.0.1 - - [25/Feb/2026 22:17:47] "GET /documentation HTTP/1.1" 200 -
+2026-02-25 22:17:48,330 - INFO - 127.0.0.1 - - [25/Feb/2026 22:17:48] "GET /documentation HTTP/1.1" 200 -
+2026-02-25 22:17:51,396 - INFO - 127.0.0.1 - - [25/Feb/2026 22:17:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:17:59,635 - INFO - 127.0.0.1 - - [25/Feb/2026 22:17:59] "GET /benchmarks HTTP/1.1" 200 -
+2026-02-25 22:18:01,259 - INFO - 127.0.0.1 - - [25/Feb/2026 22:18:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:18:14,735 - INFO - 127.0.0.1 - - [25/Feb/2026 22:18:14] "GET /documentation HTTP/1.1" 200 -
+2026-02-25 22:18:16,262 - INFO - 127.0.0.1 - - [25/Feb/2026 22:18:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:18:44,862 - INFO -  * Detected change in 'D:\\code\\Python\\project\\autocorrect_system\\autocorrect_core.py', reloading
+2026-02-25 22:24:45,371 - INFO - AutoCorrect System initialized successfully
+2026-02-25 22:24:45,416 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 22:24:45,502 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.92.80.227:5000
+2026-02-25 22:24:45,502 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-25 22:24:45,529 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-25 22:24:49,722 - INFO - AutoCorrect System initialized successfully
+2026-02-25 22:24:49,765 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 22:24:49,813 - WARNING -  * Debugger is active!
+2026-02-25 22:24:49,821 - INFO -  * Debugger PIN: 945-111-286
+2026-02-25 22:24:49,944 - INFO -  * Detected change in 'C:\\Python314\\Lib\\encodings\\unicode_escape.py', reloading
+2026-02-25 22:24:49,958 - INFO - 127.0.0.1 - - [25/Feb/2026 22:24:49] "GET / HTTP/1.1" 200 -
+2026-02-25 22:24:50,463 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-25 22:24:54,754 - INFO - AutoCorrect System initialized successfully
+2026-02-25 22:24:54,800 - INFO - Model loaded from autocorrect_model.pkl
+2026-02-25 22:24:54,848 - WARNING -  * Debugger is active!
+2026-02-25 22:24:54,856 - INFO -  * Debugger PIN: 945-111-286
+2026-02-25 22:24:55,087 - INFO - 127.0.0.1 - - [25/Feb/2026 22:24:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:24:59,122 - INFO - 127.0.0.1 - - [25/Feb/2026 22:24:59] "GET /autocorrect HTTP/1.1" 200 -
+2026-02-25 22:24:59,408 - INFO - 127.0.0.1 - - [25/Feb/2026 22:24:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:24:59,483 - INFO - 127.0.0.1 - - [25/Feb/2026 22:24:59] "[36mGET /static/js/autocorrect.js HTTP/1.1[0m" 304 -
+2026-02-25 22:25:05,927 - INFO - 127.0.0.1 - - [25/Feb/2026 22:25:05] "GET /dashboard HTTP/1.1" 200 -
+2026-02-25 22:25:05,996 - INFO - 127.0.0.1 - - [25/Feb/2026 22:25:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:25:06,165 - INFO - 127.0.0.1 - - [25/Feb/2026 22:25:06] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-02-25 22:25:12,606 - INFO - 127.0.0.1 - - [25/Feb/2026 22:25:12] "GET /documentation HTTP/1.1" 200 -
+2026-02-25 22:25:12,911 - INFO - 127.0.0.1 - - [25/Feb/2026 22:25:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:25:19,459 - INFO - 127.0.0.1 - - [25/Feb/2026 22:25:19] "GET /benchmarks HTTP/1.1" 200 -
+2026-02-25 22:25:19,545 - INFO - 127.0.0.1 - - [25/Feb/2026 22:25:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:25:26,228 - INFO - 127.0.0.1 - - [25/Feb/2026 22:25:26] "GET /contact HTTP/1.1" 200 -
+2026-02-25 22:25:26,531 - INFO - 127.0.0.1 - - [25/Feb/2026 22:25:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:25:34,325 - INFO - 127.0.0.1 - - [25/Feb/2026 22:25:34] "GET /terms HTTP/1.1" 200 -
+2026-02-25 22:25:34,377 - INFO - 127.0.0.1 - - [25/Feb/2026 22:25:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-25 22:26:52,681 - INFO -  * Detected change in 'C:\\Python314\\Lib\\email\\policy.py', reloading
+2026-02-25 22:26:53,099 - INFO -  * Restarting with watchdog (windowsapi)

@@ -1,0 +1,10 @@
+flask
+nltk
+pickle5
+python_version
+uvicorn
+gunicorn
+gitsummary
+Flask-Session
+gunicorn
+uvicorn

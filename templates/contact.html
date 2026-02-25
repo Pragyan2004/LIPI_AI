@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}Signal Input | Lipi AI Communications{% endblock %}
+
+{% block content %}
+<div class="container mb-5 pb-5">
+    <div class="text-center mb-5" data-aos="fade-down">
+        <h2 class="mb-3">Signal <span class="gradient-text">Input</span></h2>
+        <p class="text-white-50">Operational support and research collaboration gateways.</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="row g-4">
+                <div class="col-md-5" data-aos="fade-right">
+                    <div class="bento-item h-100">
+                        <h4 class="mb-4">Sync Methods</h4>
+                        <div class="d-flex flex-column gap-4">
+                            <div class="dash-card border-opacity-10">
+                                <small class="text-muted d-block mb-1">NETWORK HUB</small>
+                                <div class="fw-bold">Lipi Research Lab, New Delhi</div>
+                            </div>
+                            <div class="dash-card border-opacity-10">
+                                <small class="text-muted d-block mb-1">DIGITAL UPLINK</small>
+                                <div class="fw-bold">support@lipi-ai.in</div>
+                            </div>
+                            <div class="dash-card border-opacity-10">
+                                <small class="text-muted d-block mb-1">OPERATIONAL RADIUS</small>
+                                <div class="fw-bold">24/7 Neural Support</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-7" data-aos="fade-left">
+                    <div class="bento-item">
+                        <form id="contactForm" class="d-flex flex-column gap-4">
+                            <div>
+                                <label class="small text-white-50 mb-2">IDENTIFIER</label>
+                                <input type="text" class="form-input-modern" placeholder="Linguistic Researcher / User"
+                                    required>
+                            </div>
+                            <div>
+                                <label class="small text-white-50 mb-2">UPLINK ADDRESS</label>
+                                <input type="email" class="form-input-modern" placeholder="name@domain.com" required>
+                            </div>
+                            <div>
+                                <label class="small text-white-50 mb-2">TRANSMISSION</label>
+                                <textarea class="form-input-modern" rows="5"
+                                    placeholder="Operational feedback or research inquiry..."></textarea>
+                            </div>
+                            <button type="submit" class="btn-premium w-100 justify-content-center">Transmit
+                                Signal</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        const btn = e.target.querySelector('button');
+        btn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Transmitting...';
+        setTimeout(() => {
+            btn.innerHTML = '<i class="fas fa-check me-2"></i> Signal Delivered';
+            btn.classList.replace('btn-premium', 'btn-secondary-dark');
+            e.target.reset();
+        }, 1500);
+    });
+</script>
+{% endblock %}
