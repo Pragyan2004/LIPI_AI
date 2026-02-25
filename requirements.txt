@@ -1,7 +1,4 @@
 flask
 nltk
-python_version
-gunicorn
-gitsummary
 Flask-Session
-
+gunicorn
